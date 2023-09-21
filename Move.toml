@@ -1,0 +1,21 @@
+[package]
+name = "NekrNFT"
+version = "1.0.0"
+authors = ["0xNekr"]
+
+[addresses]
+sender = "0xeb5ecc049b15597c4d58370b20bbdea5e05bdec1c1facd28c7154e167f29cd31"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dependencies.AptosToken]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-token"
+
+[dev-dependencies]
